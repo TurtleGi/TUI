@@ -1,0 +1,33 @@
+.breadcrumb {
+   height: 20px;
+   line-height: 20px;
+}
+a{
+    color: black;
+}
+.breadcrumb li {
+    float: left;
+    list-style: none;
+    
+}
+.t-breadcrumb-none a>li::before {
+    content: '/';
+    margin: auto 8px;
+}
+.t-breadcrumb-jiantou  li::before{
+    content: '>';
+    margin: auto 8px;
+}
+
+
+
+
+
+ul a:first-child li::before{
+    content: '';
+}
+
+.select {
+    font-size: 18px;
+    font-weight: 600;
+}

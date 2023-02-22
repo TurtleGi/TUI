@@ -1,24 +1,29 @@
 <script setup lang="ts">
 import Nav from "./components/Nav.vue";
+
 </script>
 
 <template>
   <div>
-    <Nav />
-    <router-view></router-view>
+    <t-layout class="layout">
+      <t-aside class="aside">
+        <Nav />
+      </t-aside>
+      <t-main class="main">
+        <router-view></router-view>
+
+      </t-main>
+    </t-layout>
   </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+<style scoped lang="less">
+.layout{
+min-width: 1280px;
+.aside{
+  min-width: 300px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+.main{
+min-width: 800px;
+}}
 </style>
