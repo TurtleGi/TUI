@@ -12,8 +12,8 @@ export {TAvatar} from './avatar/index'
 export {TProgress} from './progress/index'
 export {TButton } from './button/index'
 export {TButtonGroup } from './buttongroup/index'
-export {TBreadCrumb} from './breadcrumb/index'
-export {TBreadCrumbItem} from './breadcrumbitem/index'
+export {TBreadcrumb} from './breadcrumb/index'
+export {TBreadcrumbItem} from './breadcrumbitem/index'
 export {TCheckBox} from './checkbox/index'
 export {TCheckBoxGroup} from './checkboxgroup/index'
 export {TDropDown} from './dropdown/index'
@@ -46,8 +46,8 @@ const install = app => {
     app.use(TProgress),
     app.use(TButton),
     app.use(TButtonGroup),
-    app.use(TBreadCrumb),
-    app.use(TBreadCrumbItem),
+    app.use(TBreadcrumb),
+    app.use(TBreadcrumbItem),
     app.use(TCheckBox),
     app.use(TCheckBoxGroup),
     app.use(TDropDown),
@@ -70,7 +70,7 @@ const TUI = {
     install
 }
 export { TButton,TButtonGroup,
-    TBreadCrumbItem,TBreadCrumb,
+    TBreadcrumbItem,TBreadcrumb,
     TCheckBox,TCheckBoxGroup,TDropDown,TDropDownItem,TForm,TFormItem,TIcon,TInput,TMenu,TMenuItem,TOption,TRadio,TRadioGroup
     ,TSelect,TUpload,TTimepick,TUpload
     ,THeader, TFooter, TAside, TMain,TLayout,TGrid,TGridItem,TList,TListItem,TTable,TAvatar,TProgress}

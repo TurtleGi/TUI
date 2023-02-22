@@ -1,9 +1,6 @@
-<script setup lang="ts">
+# upload上传
 
-</script>
-
-<template>
-    <div class="upload_bg">
+   <div class="upload_bg">
         <t-upload></t-upload>
     </div>
     <div class="upload_bg">
@@ -15,9 +12,13 @@
     <div class="upload_bg">
         <t-upload contraction></t-upload>
     </div>
-</template>
 
-<style scoped>
+```html
+<t-upload></t-upload>
+<t-upload contraction></t-upload>
+```
+    
+<style>
 .upload_bg {
     margin-top: 40px;
 }

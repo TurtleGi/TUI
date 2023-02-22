@@ -1,3 +1,5 @@
+# table组件
+
 <script setup lang="ts">
 const columns =[{
    name:'姓名',
@@ -25,14 +27,17 @@ const data =[{
 }]
 </script>
 
-<template>
+
   <div>
     <TTable class="table" :columns="columns" :data="data" :isHover = true ></TTable>
     <TTable  class="table" :columns="columns" :data="data"></TTable>
 
   </div>
-</template>
 
+```html
+<TTable class="table" :columns="columns" :data="data" :isHover = true ></TTable>
+<TTable  class="table" :columns="columns" :data="data"></TTable>
+```
 <style scoped>
 .table{
     margin: 10px 0;

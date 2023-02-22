@@ -5,8 +5,8 @@
 // };
 
 // export default API;
-import TBreadCrumb from '../packages/components/breadcrumb/index'
-import TBreadCrumbItem from '../packages/components/breadcrumbitem/index'
+import TBreadcrumb from '../packages/components/breadcrumb/index'
+import TBreadcrumbItem from '../packages/components/breadcrumbitem/index'
 import TCheckBox from '../packages/components/checkbox/index'
 import TCheckBoxGroup from '../packages/components/checkboxgroup/index'
 import TDropDown from '../packages/components/dropdown/index'
@@ -54,7 +54,8 @@ const install = app => {
         app.use(TProgress),
         app.use(TButton),
         app.use(TButtonGroup),
-        app.use(TBreadCrumbItem),
+        app.use(TBreadcrumb),
+        app.use(TBreadcrumbItem),
         app.use(TCheckBox),
         app.use(TCheckBoxGroup),
         app.use(TDropDown),
@@ -79,7 +80,7 @@ const TUI = {
     install
 }
 export {
-    TBreadCrumbItem, TBreadCrumb,
+    TBreadcrumbItem, TBreadcrumb,
     TCheckBox, TCheckBoxGroup, TDropDown, TDropDownItem, TForm, TFormItem, TIcon, TInput, TMenu, TMenuItem, TOption, TRadio, TRadioGroup
     , TSwitch,TSelect, TUpload, TTimepick, TButton, TButtonGroup, THeader, TFooter, TAside, TMain, TLayout, TGrid, TGridItem, TList, TListItem, TTable,
     TAvatar, TProgress

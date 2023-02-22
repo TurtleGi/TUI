@@ -1,0 +1,23 @@
+{
+  "hash": "3eaa1be3",
+  "browserHash": "512c1947",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "38e0b2b2",
+      "needsInterop": false
+    },
+    "@vue/reactivity": {
+      "src": "../../../../node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "file": "@vue_reactivity.js",
+      "fileHash": "9e6e337d",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-LWQU3CLR": {
+      "file": "chunk-LWQU3CLR.js"
+    }
+  }
+}
