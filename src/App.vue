@@ -11,7 +11,6 @@ import Nav from "./components/Nav.vue";
       </t-aside>
       <t-main class="main">
         <router-view></router-view>
-
       </t-main>
     </t-layout>
   </div>
